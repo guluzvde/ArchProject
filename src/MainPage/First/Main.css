@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../photo/main.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 50px; */
+}
+.main::after{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.main>h1{
+    color: white;
+    text-transform: uppercase;
+}
+.main>p{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px;
+}

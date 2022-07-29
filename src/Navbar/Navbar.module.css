@@ -1,0 +1,21 @@
+img{
+    height: 50px;
+}
+nav{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+ul{
+display: flex;
+justify-content: space-around;
+gap: 50px;
+list-style-type: none;
+}
+ul>li{
+padding: 10px;
+}
+ul>li>a{
+    color: #5E5E5E;
+text-decoration: none;
+}

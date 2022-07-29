@@ -1,0 +1,22 @@
+.group {
+padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #056b38;
+  justify-content: space-around;
+}
+.contact {
+  display: flex;
+  gap: 25px;
+}
+.contact>*{
+    color: white;
+}
+.cont{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+.social {
+  display: flex;
+}
